@@ -1,0 +1,4 @@
+#ubuntu server
+sudo apt-get install language-pack-ru
+sudo update-locale LANG=ru_RU.UTF-8
+sudo timedatectl set-timezone Europe/Moscow
