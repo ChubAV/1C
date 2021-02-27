@@ -1,4 +1,14 @@
 #ubuntu server
+
+# локаль
 sudo apt-get install language-pack-ru
 sudo update-locale LANG=ru_RU.UTF-8
+
+# Время
 sudo timedatectl set-timezone Europe/Moscow
+
+# Доп пакеты для 1С  
+sudo apt-get install libfreetype6  libgsf-1-common glib2.0 imagemagick unixodbc ttf-mscorefonts-installer
+
+# 1C server
+tar xfvz deb64_8_3_18_1334.tar.gz
